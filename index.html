@@ -4,885 +4,195 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TLHANTLHAGANE YA BOKONE INVESTMENT | Official Website</title>
+<title>TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD</title>
 
-<meta name="description" content="Discover TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD, a South African business specialising in indigenous tea, general trading and supply services.">
+<meta name="description" content="TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD. Tea products, general trading, manufacturing and supply services in Limpopo, South Africa.">
 
 <style>
-:root {
-    --brown: #24170f;
-    --brown-light: #49301e;
-    --gold: #d7b46a;
-    --cream: #f8f3e9;
-    --white: #ffffff;
-    --text: #38322c;
-}
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--cream);
-    color: var(--text);
+    font-family: Arial, sans-serif;
     line-height: 1.7;
+    color: #333;
+    background: #f8f7f2;
 }
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 90%;
-    max-width: 1150px;
-    margin: auto;
-}
-
-/* TOP BAR */
-
-.topbar {
-    background: #160f0a;
-    color: var(--gold);
-    text-align: center;
-    padding: 9px 12px;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-/* HEADER */
 
 header {
-    background: var(--brown);
-    color: var(--white);
-    padding: 24px 0;
-    border-bottom: 2px solid var(--gold);
-}
-
-.brand {
-    text-align: center;
-}
-
-.brand-icon {
-    font-size: 39px;
-    margin-bottom: 8px;
-}
-
-.brand h1 {
-    color: var(--gold);
-    font-size: clamp(21px, 4vw, 34px);
-    line-height: 1.35;
-    letter-spacing: 1px;
-}
-
-.brand p {
-    margin-top: 8px;
-    font-size: 12px;
-    letter-spacing: 4px;
-}
-
-/* NAVIGATION */
-
-nav {
-    background: var(--brown-light);
-    padding: 13px 8px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    border-bottom: 1px solid #725333;
-}
-
-nav a {
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    display: inline-block;
-    padding: 8px 10px;
-}
-
-nav a:hover {
-    color: var(--gold);
-}
-
-/* HERO */
-
-.hero {
-    background:
-        radial-gradient(ellipse at top right, #72502d 0%, transparent 48%),
-        linear-gradient(135deg, #1c120b, #49301e 65%, #24170f);
-    color: white;
-    text-align: center;
-    padding: 90px 18px 85px;
-    border-bottom: 5px solid var(--gold);
-}
-
-.hero-label {
-    display: inline-block;
-    border: 1px solid var(--gold);
-    color: var(--gold);
-    padding: 7px 17px;
-    font-size: 11px;
-    letter-spacing: 3px;
-    margin-bottom: 25px;
-}
-
-.hero h2 {
-    max-width: 850px;
-    margin: auto;
-    font-family: Georgia, serif;
-    font-size: clamp(32px, 6vw, 55px);
-    line-height: 1.2;
-    font-weight: normal;
-}
-
-.hero h2 span {
-    color: var(--gold);
-}
-
-.hero p {
-    max-width: 700px;
-    margin: 22px auto;
-    color: #eee3d3;
-    font-size: 16px;
-}
-
-.button {
-    display: inline-block;
-    padding: 13px 23px;
-    margin: 9px 5px;
-    background: var(--gold);
-    color: #24170f;
-    font-weight: bold;
-    border: 1px solid var(--gold);
-    border-radius: 3px;
-    transition: 0.3s;
-}
-
-.button:hover {
-    background: white;
-    border-color: white;
-}
-
-.button-outline {
-    background: transparent;
-    color: var(--gold);
-}
-
-.button-outline:hover {
-    color: var(--brown);
-}
-
-/* HIGHLIGHTS */
-
-.highlights {
-    background: white;
-    padding: 28px 10px;
-    border-bottom: 1px solid #e4d5bb;
-}
-
-.highlight-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    text-align: center;
-    gap: 20px;
-}
-
-.highlight strong {
-    display: block;
-    color: #76512a;
-    font-size: 17px;
-}
-
-.highlight span {
-    font-size: 12px;
-    color: #70675d;
-}
-
-/* GENERAL SECTIONS */
-
-section {
-    padding: 70px 0;
-    scroll-margin-top: 70px;
-}
-
-.section-heading {
-    text-align: center;
-    margin-bottom: 35px;
-}
-
-.section-heading .small-title {
-    color: #936d36;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.section-heading h2 {
-    color: var(--brown);
-    font-family: Georgia, serif;
-    font-size: clamp(28px, 5vw, 39px);
-    font-weight: normal;
-    margin: 9px 0 13px;
-}
-
-.gold-line {
-    width: 65px;
-    height: 3px;
-    background: var(--gold);
-    margin: auto;
-}
-
-.section-intro {
-    max-width: 780px;
-    margin: auto;
-    text-align: center;
-}
-
-/* ABOUT */
-
-.about-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 28px;
-    align-items: stretch;
-}
-
-.about-panel {
-    background: white;
-    padding: 30px;
-    border: 1px solid #eadcc4;
-    border-top: 4px solid var(--gold);
-    box-shadow: 0 8px 25px rgba(36, 23, 15, 0.05);
-}
-
-.about-panel h3 {
-    color: var(--brown-light);
-    font-family: Georgia, serif;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-
-.about-panel p {
-    margin-bottom: 13px;
-}
-
-/* FOUNDER */
-
-.founder {
-    background: #eee4d4;
-}
-
-.founder-box {
-    max-width: 900px;
-    margin: auto;
-    padding: 35px;
-    background: white;
-    border-left: 5px solid var(--gold);
-    box-shadow: 0 8px 25px rgba(36, 23, 15, 0.05);
-}
-
-.founder-box h3 {
-    color: var(--brown);
-    font-family: Georgia, serif;
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.founder-box p {
-    margin-bottom: 14px;
-}
-
-/* SERVICES */
-
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-    gap: 22px;
-}
-
-.service-card {
-    background: white;
-    padding: 28px 24px;
-    border: 1px solid #e8ddca;
-    border-bottom: 4px solid var(--gold);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(36, 23, 15, 0.1);
-}
-
-.service-number {
-    color: #b08b4e;
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-.service-card h3 {
-    margin: 12px 0;
-    color: var(--brown-light);
-    font-family: Georgia, serif;
-    font-size: 22px;
-}
-
-/* TEA */
-
-.tea-section {
-    background: var(--brown);
-    color: white;
-}
-
-.tea-section .section-heading h2 {
-    color: white;
-}
-
-.tea-section .section-intro {
-    color: #e9dece;
-}
-
-.tea-box {
-    max-width: 850px;
-    margin: 35px auto 0;
-    padding: 35px 25px;
-    text-align: center;
-    border: 1px solid #8e7145;
-    background: linear-gradient(145deg, #342116, #1c120b);
-}
-
-.tea-symbol {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-.tea-box h3 {
-    color: var(--gold);
-    font-family: Georgia, serif;
-    font-size: clamp(24px, 5vw, 34px);
-    margin-bottom: 15px;
-}
-
-.tea-box p {
-    max-width: 700px;
-    margin: 12px auto;
-}
-
-/* VISION AND VALUES */
-
-.values-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 22px;
-}
-
-.value-card {
-    background: white;
-    padding: 28px;
-    text-align: center;
-    border: 1px solid #e7d8bf;
-}
-
-.value-card h3 {
-    color: #76512a;
-    font-family: Georgia, serif;
-    font-size: 23px;
-    margin-bottom: 13px;
-}
-
-/* CALL TO ACTION */
-
-.callout {
-    background: #e9ddc8;
-    padding: 55px 20px;
-    text-align: center;
-}
-
-.callout h2 {
-    font-family: Georgia, serif;
-    color: var(--brown);
-    font-size: clamp(27px, 5vw, 36px);
-    margin-bottom: 15px;
-}
-
-/* CONTACT */
-
-.contact-section {
-    background: white;
-}
-
-.contact-card {
-    max-width: 800px;
-    margin: auto;
-    background: var(--cream);
-    padding: 30px;
-    border: 1px solid #e2d2b7;
-}
-
-.contact-row {
-    padding: 13px 0;
-    border-bottom: 1px solid #e0d3bf;
-    overflow-wrap: anywhere;
-}
-
-.contact-row strong {
-    display: block;
-    color: #76512a;
-    margin-bottom: 4px;
-}
-
-.contact-row a {
-    color: #49301e;
-    text-decoration: underline;
-}
-
-.contact-actions {
-    text-align: center;
-    margin-top: 22px;
-}
-<div class="contact-actions">
-
-    <a class="button"
-       href="tel:+27767972229">
-       📞 CALL US
-    </a>
-
-    <a class="button"
-       href="https://wa.me/27767972229"
-       target="_blank">
-       💬 WHATSAPP US
-    </a>
-
-    <a class="button"
-       href="mailto:tlhantlhaganeyabokoneinves01@gmail.com">
-       ✉️ EMAIL US
-    </a>
-
-</div>
-/* FOOTER */
-
-footer {
-    background: #160f0a;
-    color: #eee3d3;
-    padding: 35px 15px;
-    text-align: center;
-}
-
-footer h3 {
-    color: var(--gold);
-    margin-bottom: 8px;
-    font-size: 18px;
-}
-
-footer p {
-    font-size: 13px;
-    margin: 5px;
-}
-
-footer .slogan {
-    color: var(--gold);
-    letter-spacing: 3px;
-    margin: 12px 0;
-}
-
-/* MOBILE */
-
-@media (max-width: 600px) {
-    .container {
-        width: 92%;
-    }
-
-    .hero {
-        padding: 65px 15px;
-    }
-
-    nav a {
-        padding: 7px 6px;
-        font-size: 12px;
-    }
-
-    section {
-        padding: 50px 0;
-    }
-
-    .founder-box {
-        padding: 23px;
-    }
-
-    .contact-card {
-        padding: 20px;
-    }
-}
-</style>
-</head>
-
-<body>
-
-<div class="topbar">
-    SOUTH AFRICAN ENTERPRISE • QUALITY • COMMITMENT • GROWTH
-</div>
-
-<header>
-    <div class="container brand">
-        <div class="brand-icon">✦</div>
-        <h1>TLHANTLHAGANE YA BOKONE<br>INVESTMENT PTY LTD</h1>
-        <p>THE POWER OF HUSTLING</p>
-    </div>
-</header>
-
-<nav>
-    <a href="#home">HOME</a>
-    <a href="#about">ABOUT</a>
-    <a href="#founder">FOUNDER</a>
-    <a href="#services">SERVICES</a>
-    <a href="#tea">OUR TEA</a>
-    <a href="#contact">CONTACT</a>
-</nav>
-
-<main>
-
-<div class="hero" id="home">
-    <div class="hero-label">WELCOME TO OUR COMPANY</div>
-
-    <h2>Building a Legacy.<br><span>Growing Opportunities.</span></h2>
-
-    <p>
-        A South African enterprise inspired by tradition,
-        driven by ambition and committed to building a
-        brighter future through indigenous tea, general
-        trading and supply services.
-    </p>
-
-    <a href="#services" class="button">EXPLORE OUR SERVICES</a>
-    <a href="#contact" class="button button-outline">CONTACT OUR TEAM</a>
-</div>
-
-<div class="highlights">
-    <div class="container highlight-grid">
-        <div class="highlight">
-            <strong>INDIGENOUS TEA</strong>
-            <span>Celebrating traditional heritage</span>
-        </div>
-
-        <div class="highlight">
-            <strong>GENERAL TRADING</strong>
-            <span>Exploring business opportunities</span>
-        </div>
-
-        <div class="highlight">
-            <strong>SUPPLY SERVICES</strong>
-            <span>Serving customer needs</span>
-        </div>
-
-        <div class="highlight">
-            <strong>COMMUNITY GROWTH</strong>
-            <span>Creating opportunities</span>
-        </div>
-    </div>
-</div>
-
-<section id="about">
-    <div class="container">
-        <div class="section-heading">
-            <div class="small-title">Who We Are</div>
-            <h2>About Our Company</h2>
-            <div class="gold-line"></div>
-        </div>
-
-        <div class="about-grid">
-            <div class="about-panel">
-                <h3>Our Company</h3>
-                <p>
-                    TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD
-                    is a South African company established with
-                    an ambition to grow into a diversified and
-                    sustainable business.
-                </p>
-                <p>
-                    Our business interests include indigenous
-                    tea manufacturing and sales, general trading,
-                    supply services and other business opportunities.
-                </p>
-                <p>
-                    We aim to build lasting relationships through
-                    commitment, professionalism, dependable service
-                    and a strong work ethic.
-                </p>
-            </div>
-
-            <div class="about-panel">
-                <h3>Our Background</h3>
-                <p>
-                    Our journey is inspired by family heritage,
-                    entrepreneurship and the belief that a small
-                    beginning can lead to a meaningful future.
-                </p>
-                <p>
-                    Indigenous tea is an important part of our
-                    business story. We aim to preserve traditional
-                    knowledge while developing products for a
-                    wider market.
-                </p>
-                <p>
-                    From our roots in Ga-Masemola, Limpopo,
-                    we aspire to expand our reach and establish
-                    strong business relationships across South Africa.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="founder" id="founder">
-    <div class="container">
-        <div class="section-heading">
-            <div class="small-title">The Person Behind The Vision</div>
-            <h2>Our Founder and Director</h2>
-            <div class="gold-line"></div>
-        </div>
-
-        <div class="founder-box">
-            <h3>Diphete Kay Matlanyane</h3>
-
-            <p>
-                Diphete Kay Matlanyane is the Founder and Director
-                of TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD.
-                Originally from Mahlakole Section, Ga-Masemola,
-                in Limpopo Province, South Africa, the founder's
-                journey reflects determination, education, family
-                heritage and an entrepreneurial spirit.
-            </p>
-
-            <p>
-                The founder studied for a Diploma in Office
-                Management and Technology at Central University
-                of Technology and obtained an N6 Certificate
-                in Management Assistant at Goldfields TVET College,
-                Welkom Campus, in the Free State.
-            </p>
-
-            <p>
-                The company's tea journey is rooted in family
-                tradition. The founder's father prepared indigenous
-                tea using selected bush trees. By helping with
-                this traditional activity and selling the tea,
-                the founder developed a passion for preserving
-                indigenous knowledge and building a business
-                from this heritage.
-            </p>
-
-            <p>
-                The long-term ambition is to develop a respected
-                enterprise that creates employment, supports
-                communities, supplies customers and contributes
-                to economic development.
-            </p>
-        </div>
-    </div>
-</section>
-
-<section id="services">
-    <div class="container">
-        <div class="section-heading">
-            <div class="small-title">What We Do</div>
-            <h2>Our Business Services</h2>
-            <div class="gold-line"></div>
-            <p class="section-intro">
-                We are building a diversified business focused
-                on products, services, customer relationships
-                and opportunities for sustainable growth.
-            </p>
-        </div>
-
-        <div class="service-grid">
-            <div class="service-card">
-                <div class="service-number">SERVICE 01</div>
-                <h3>Tea Manufacturing</h3>
-                <p>
-                    Development, preparation, packaging and
-                    sale of indigenous tea products, with a
-                    focus on traditional heritage and consistent
-                    product quality.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-number">SERVICE 02</div>
-                <h3>Tea Sales and Distribution</h3>
-                <p>
-                    Building a market for our tea products
-                    through customer relationships, brand
-                    development and distribution opportunities.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-number">SERVICE 03</div>
-                <h3>General Trading</h3>
-                <p>
-                    General trading activities aimed at meeting
-                    customer needs and exploring opportunities
-                    across different market sectors.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-number">SERVICE 04</div>
-                <h3>General Supply</h3>
-                <p>
-                    Pursuing supply opportunities with businesses,
-                    institutions and potential public-sector
-                    and private-sector customers.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="tea-section" id="tea">
-    <div class="container">
-        <div class="section-heading">
-            <div class="small-title">Inspired By Tradition</div>
-            <h2>Discover Our Indigenous Tea</h2>
-            <div class="gold-line"></div>
-        </div>
-
-        <div class="tea-box">
-            <div class="tea-symbol">♨</div>
-
-            <h3>Gobetse Indigenous Tepane Tea</h3>
-
-            <p>
-                Inspired by traditional tea-making knowledge
-                and the natural heritage of our community,
-                Gobetse Indigenous Tepane Tea represents our
-                commitment to developing a distinctive
-                indigenous tea brand.
-            </p>
-
-            <p>
-                Our ambition is to share traditional flavour
-                with more customers while building a brand
-                recognised for care, quality, responsible
-                production and excellent customer service.
-            </p>
-
-            <p>
-                <strong>Tradition in every cup. Ambition in every step.</strong>
-            </p>
-
-            <a href="#contact" class="button">ENQUIRE ABOUT OUR TEA</a>
-        </div>
-    </div>
-</section>
-
-<section id="vision">
-    <div class="container">
-        <div class="section-heading">
-            <div class="small-title">Our Guiding Principles</div>
-            <h2>Vision, Mission and Values</h2>
-            <div class="gold-line"></div>
-        </div>
-
-        <div class="values-grid">
-            <div class="value-card">
-                <h3>Our Vision</h3>
-                <p>
-                    To become a leading indigenous tea manufacturer
-                    and a successful diversified enterprise in
-                    South Africa, recognised for quality,
-                    innovation and positive community impact.
-                </p>
-            </div>
-
-            <div class="value-card">
-                <h3>Our Mission</h3>
-                <p>
-                    To deliver quality products and reliable
-                    services, preserve indigenous tea traditions,
-                    build strong business relationships and
-                    pursue opportunities that create employment.
-                </p>
-            </div>
-
-            <div class="value-card">
-                <h3>Our Values</h3>
-                <p>
-                    Hard work, honesty, commitment, respect,
-                    quality, innovation, customer satisfaction
-                    and community empowerment guide our
-                    business approach.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="callout">
-    <div class="container">
-        <h2>The Power of Hustling</h2>
-        <p>
-            From a traditional beginning to a vision of
-            lasting success, we are committed to building
-            opportunities for the future.
-        </p>
-        <a href="#contact" class="button">LET'S CONNECT</a>
-    </div>
-</div>
-
-<section class="contact-section" id="contact">
-    <div class="container">
-        <div class="section-heading">
-            <div class="small-title">We Welcome Your Enquiries</div>
-            <h2>Contact Our Company</h2>
-            <div class="gold-line"></div>
-            <p class="section-intro">
-                Contact us regarding our tea products,
-                trading activities, supply opportunities
-                or potential business partnerships.
-            </p>
-        </div>
-
-        <div class="contact-card">
-            <div class="contact-row">
-                <strong>Registered Business Name</strong>
-                TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD
-            </div>
-
-            <div class="contact-row">
-                <strong>Business Address</strong>
-                2289 Mahlakole Section, Ga-Masemola,
-                Groblersdal, 1060, Limpopo Province,
-                South Africa
-            </div>
-
-            <div class="contact-row">
-                <strong10px;
-}
-
-footer {
-    background: #402b1d;
+    background: #382416;
     color: white;
     text-align: center;
     padding: 25px 15px;
 }
 
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+header h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #f1d49a;
+}
+
+nav {
+    background: #76502e;
+    padding: 14px 8px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 7px 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe2a0;
+}
+
+.hero {
+    background: linear-gradient(135deg, #eee3d0, #ffffff);
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.hero h2 {
+    color: #54371f;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 17px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 12px 25px;
+    background: #76502e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 45px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    color: #54371f;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.intro {
+    text-align: center;
+    max-width: 850px;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.09);
+}
+
+.card img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #54371f;
+    margin-bottom: 10px;
+}
+
+.tea {
+    background: #edf3e7;
+    border-radius: 12px;
+}
+
+.tea h2 {
+    color: #31552e;
+}
+
+.tea .button {
+    background: #31552e;
+}
+
+.contact {
+    background: #eee3d0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+    overflow-wrap: anywhere;
+}
+
+.contact a {
+    color: #54371f;
+}
+
+footer {
+    background: #382416;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
 footer p {
-    margin: 5px;
+    margin: 5px 0;
 }
 
 @media (max-width: 600px) {
     header h1 {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .hero h2 {
-        font-size: 27px;
+        font-size: 26px;
     }
 
     nav a {
@@ -896,50 +206,88 @@ footer p {
 <body>
 
 <header>
+    <img src="company-logo%20(1).png"
+         alt="TLHANTLHAGANE YA BOKONE Investment Company Logo">
+
     <h1>TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD</h1>
-    <p>THE POWER OF HUSTLING</p>
-    <p>Growing Business. Creating Opportunities. Building the Future.</p>
+
+    <p><strong>THE POWER OF HUSTLING</strong></p>
+
+    <p>Building Opportunities Through Business</p>
 </header>
 
 <nav>
     <a href="#home">Home</a>
     <a href="#about">About Us</a>
-    <a href="#services">Services</a>
     <a href="#tea">Our Tea</a>
-    <a href="#vision">Our Vision</a>
-    <a href="#contact">Contact</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact Us</a>
 </nav>
 
 <div class="hero" id="home">
-    <h2>Welcome to Our Company</h2>
+    <h2>Welcome to Our Business</h2>
+
     <p>
-        We are a South African business focused on indigenous tea,
-        manufacturing, general trading and supply. We believe in hard work,
-        quality service, community empowerment and sustainable growth.
+        Welcome to TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD,
+        a South African business committed to quality products,
+        professional service, general trading and supply.
     </p>
-    <a class="button" href="#services">Explore Our Services</a>
+
+    <a href="#services" class="button">Explore Our Services</a>
 </div>
 
 <section id="about">
     <h2>About Our Company</h2>
-    <p>
-        TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD is a South African
-        company established with a vision of building a growing,
-        diversified business that creates opportunities and serves
-        customers in both the public and private sectors.
-    </p>
-    <p>
-        Our interests include indigenous tea manufacturing and sales,
-        general trading, supply and other business opportunities.
-        We aim to build lasting relationships through commitment,
-        professionalism and reliable service.
-    </p>
+
+    <div class="intro">
+        <p>
+            TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD is a
+            South African business based in Ga-Masemola, Limpopo.
+            Our business interests include tea production and sales,
+            general trading and supply services.
+        </p>
+
+        <p>
+            We aim to build lasting business relationships through
+            commitment, professionalism and quality service.
+        </p>
+    </div>
 </section>
 
-<div class="background">
-    <section>
-        <h2>Our Founder and Director</h2>
-        <p>
-            <strong>Diphete Kay Matlanyane</strong> 
-            contact number: 0767972229 
-            email address: tlhantlhaganeyabokoneinves01@gmail.com
+<section id="tea" class="tea">
+    <h2>GOBETSE TEPANE TEA</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="gobetse-tea-logo%20(1).png"
+                 alt="Gobetse Tepane Tea Logo">
+
+            <h3>Our Tea Brand</h3>
+
+            <p>
+                Discover GOBETSE TEPANE TEA, a tea brand inspired
+                by natural and indigenous flavours.
+            </p>
+
+            <p><strong>Enjoy Natural and Indigenous Flavour.</strong></p>
+        </div>
+
+        <div class="card">
+            <img src="1.png" alt="Tea product image">
+
+            <h3>Tea Products</h3>
+
+            <p>
+                We aim to bring our tea products to customers
+                who appreciate distinctive tea flavours.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="2.png" alt="Business product image">
+
+            <h3>Our Commitment</h3>
+
+            <p>
+                We are working to develop our brand and provide
+                customers with a professional
