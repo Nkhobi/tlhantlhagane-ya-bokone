@@ -1,368 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD</title>
-
-<meta name="description" content="Discover TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD, a South African business offering tea products, general trading and supply services.">
-
-<meta name="theme-color" content="#302014">
-
+<meta name="description" content="Tlhantlhagane Ya Bokone Investment provides indigenous tea products, tea manufacturing and general trading and supply services in South Africa.">
 <style>
-:root {
-    --brown: #302014;
-    --brown2: #4b3020;
-    --gold: #d5b16c;
-    --cream: #f8f5ed;
-    --green: #294d35;
-    --green-light: #e9f0e6;
-    --white: #ffffff;
-    --text: #39352f;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 85px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--text);
-    background: var(--cream);
-    line-height: 1.7;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
-a {
-    transition: 0.25s ease;
-}
-
-.container {
-    width: min(1180px, 92%);
-    margin: auto;
-}
-
-/* TOP ANNOUNCEMENT */
-
-.topbar {
-    background: var(--brown);
-    color: var(--gold);
-    text-align: center;
-    padding: 8px 12px;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-/* HEADER */
-
-.header {
-    background: var(--white);
-    border-bottom: 1px solid #e8dfcf;
-}
-
-.header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    padding: 18px 0;
-}
-
-.brand {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    min-width: 0;
-}
-
-.brand img {
-    width: 85px;
-    height: 85px;
-    object-fit: contain;
-    flex-shrink: 0;
-}
-
-.brand-name {
-    color: var(--brown);
-    font-family: Georgia, serif;
-    font-size: 19px;
-    font-weight: bold;
-    line-height: 1.35;
-}
-
-.brand-tagline {
-    color: #94723d;
-    font-size: 11px;
-    letter-spacing: 2px;
-    margin-top: 5px;
-}
-
-.header-contact {
-    color: var(--brown);
-    font-size: 13px;
-    text-align: right;
-}
-
-.header-contact a {
-    color: var(--brown);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* NAVIGATION */
-
-.nav {
-    background: var(--brown);
-}
-
-.nav-inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding: 8px 0;
-}
-
-.nav a {
-    color: var(--white);
-    text-decoration: none;
-    padding: 11px 17px;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.nav a:hover {
-    color: var(--gold);
-}
-
-/* HERO */
-
-.hero {
-    position: relative;
-    min-height: 570px;
-    display: flex;
-    align-items: center;
-    color: var(--white);
-    background:
-        linear-gradient(
-            90deg,
-            rgba(35, 23, 14, 0.92),
-            rgba(35, 23, 14, 0.63),
-            rgba(35, 23, 14, 0.18)
-        ),
-        url("https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=2000&q=85")
-        center / cover no-repeat;
-}
-
-.hero-content {
-    width: min(1180px, 92%);
-    margin: auto;
-    padding: 80px 0;
-}
-
-.eyebrow {
-    color: var(--gold);
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
-.hero h1 {
-    font-family: Georgia, serif;
-    font-size: clamp(37px, 5.5vw, 69px);
-    line-height: 1.13;
-    max-width: 800px;
-    margin: 22px 0;
-    font-weight: normal;
-}
-
-.hero h1 span {
-    color: var(--gold);
-}
-
-.hero p {
-    max-width: 610px;
-    font-size: 16px;
-    color: #f3eee6;
-    line-height: 1.9;
-}
-
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 30px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 14px 23px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.btn-gold {
-    background: var(--gold);
-    color: var(--brown);
-    border: 1px solid var(--gold);
-}
-
-.btn-outline {
-    border: 1px solid var(--white);
-    color: var(--white);
-}
-
-.btn:hover {
-    opacity: 0.85;
-    transform: translateY(-2px);
-}
-
-/* TRUST STRIP */
-
-.trust-strip {
-    background: var(--brown2);
-    color: var(--white);
-}
-
-.trust-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-}
-
-.trust-item {
-    padding: 25px 12px;
-    border-right: 1px solid rgba(255,255,255,0.15);
-}
-
-.trust-item:last-child {
-    border-right: none;
-}
-
-.trust-item strong {
-    display: block;
-    color: var(--gold);
-    font-family: Georgia, serif;
-    font-size: 18px;
-}
-
-.trust-item span {
-    display: block;
-    font-size: 12px;
-    margin-top: 4px;
-}
-
-/* GENERAL SECTION */
-
-.section {
-    padding: 85px 0;
-}
-
-.section-heading {
-    text-align: center;
-    max-width: 760px;
-    margin: 0 auto 45px;
-}
-
-.section-heading .eyebrow {
-    color: #94723d;
-}
-
-.section-heading h2 {
-    font-family: Georgia, serif;
-    font-size: clamp(30px, 4vw, 45px);
-    color: var(--brown);
-    font-weight: normal;
-    line-height: 1.25;
-    margin: 13px 0;
-}
-
-.section-heading p {
-    color: #6c675f;
-    font-size: 15px;
-}
-
-/* ABOUT */
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 55px;
-}
-
-.about-image {
-    position: relative;
-}
-
-.about-image img {
-    width: 100%;
-    height: 420px;
-    object-fit: cover;
-}
-
-.about-image::after {
-    content: "";
-    position: absolute;
-    inset: 13px -13px -13px 13px;
-    border: 2px solid var(--gold);
-    z-index: -1;
-}
-
-.about-copy h2 {
-    font-family: Georgia, serif;
-    font-weight: normal;
-    color: var(--brown);
-    font-size: 38px;
-    line-height: 1.25;
-    margin: 13px 0 22px;
-}
-
-.about-copy p {
-    font-size: 15px;
-    margin-bottom: 17px;
-    color: #625c54;
-}
-
-.signature {
-    color: #94723d;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-top: 22px;
-}
-
-/* SERVICES */
-
-.services {
-    background: #eee7d9;
-}
-
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
-}
-
-.service-card {
-    background: var(--white);
-    padding: 32px 26px;
-    border-bottom: 3px solid var(--gold);
-    box-shadow: 0 8px
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#fffaf1;color:#332319;line-height:1.7}
+header{background:#402819;color:white;padding:25px 15px;text-align:center;border-bottom:5px solid #c99a43}
+.logo{width:100px;height:100px;border:3px solid #d8b46a;border-radius:50%;margin:auto;display:flex;align-items:center;justify-content:center;font-size:42px;background:#fffaf1}
+header h1{font-size:clamp(23px,5vw,38px);margin:15px auto 5px;max-width:900px}
+header p{color:#f0d59d;margin:5px}
+nav{background:#69452d;text-align:center;padding:12px 5px;position:sticky;top:0;z-index:10}
+nav a{color:white;text-decoration:none;display:inline-block;padding:8px 12px;font-weight:bold}
+nav a:hover{color:#ffd985}
+.hero{padding:65px 20px;text-align:center;background:linear-gradient(135deg,#f3e2c1,#fffaf1)}
+.hero h2{font-size:clamp(30px,6vw,48px);color:#69452d;line-height:1.2}
+.hero p{font-size:19px;max-width:700px;margin:20px auto}
+.button{display:inline-block;background:#69452d;color:white;padding:12px 23px;text-decoration:none;border-radius:5px;margin:8px;font-weight:bold}
+.button:hover{background:#402819}
+section{padding:45px 18px;max-width:1100px;margin:auto}
+section h2{text-align:center;color:#69452d;font-size:30px}
+.intro{text-align:center;max-width:800px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin-top:30px}
+.card{background:white;border-radius:12px;padding:25px 20px;box-shadow:0 3px 14px #00000012;text-align:center;border-top:4px solid #c99a43}
+.card .icon{font-size:48px}
+.card h3{color:#69452d}
+.banner{background:#efe0c5;text-align:center;padding:35px 20px}
+.contact{background:#402819;color:white;text-align:center;max-width:none}
+.contact h2{color:#f0d59d}
+.contact a{color:#ffdc91}
+footer{background:#291b12;color:white;text-align:center;padding:20px;font-size:14px}
+.small{font-size:14px;color:#765f4d}
+</style>
+</head>
+<body><header>
+  <div class="logo" aria-label="Company emblem">🐦</div>
+  <h1>TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD</h1>
+  <p>THE POWER OF HUSTLING</p>
+  <p>Indigenous Tea • Manufacturing • General Trading & Supply</p>
+</header><nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#products">Our Tea</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav><main>
+<section class="hero" id="home">
+  <h2>Rooted in Nature.<br>Driven by Opportunity.</h2>
+  <p>Discover our indigenous tea offering and business services, inspired by local enterprise and a commitment to quality.</p>
+  <a class="button" href="#products">Discover Our Tea</a>
+  <a class="button" href="#contact">Contact Our Company</a>
+</section><section id="about">
+  <h2>Welcome to Our Company</h2>
+  <div class="intro">
+    <p><strong>TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD</strong> is a South African business based in Ga-Masemola, Limpopo Province. Our business interests include indigenous tea, tea manufacturing and sales, general trading, and supply services.</p>
+    <p>Our vision is to build a trusted business that celebrates indigenous products, supports enterprise, and serves our customers professionally.</p>
+  </div>
+</section><section id="products">
+  <h2>Our Indigenous Tea</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="icon">🍵</div>
+      <h3>GOBETSE TEPANE TEA</h3>
+      <p>Discover the traditional character of indigenous tea with a warm, comforting cup. Enjoy it according to your personal taste.</p>
+      <p><strong>Natural flavour. Traditional inspiration.</strong></p>
+    </article>
+    <article class="card">
+      <div class="icon">🌿</div>
+      <h3>Inspired by Nature</h3>
+      <p>Our tea brand celebrates indigenous flavours and the enjoyment of a traditional tea-drinking experience.</p>
+    </article>
+    <article class="card">
+      <div class="icon">☕</div>
+      <h3>How to Enjoy</h3>
+      <p>Prepare your tea according to its package instructions. Add sugar or milk if desired and enjoy warm.</p>
+    </article>
+  </div>
+  <p class="small" style="text-align:center">Product ingredients and health information should always be confirmed on the product label.</p>
+</section><section id="services">
+  <h2>Our Business Services</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="icon">🌱</div>
+      <h3>Tea Manufacturing & Sales</h3>
+      <p>Indigenous tea products and tea-related business activities.</p>
+    </article>
+    <article class="card">
+      <div class="icon">📦</div>
+      <h3>General Trading</h3>
+      <p>Trading opportunities and products to meet customer and business needs.</p>
+    </article>
+    <article class="card">
+      <div class="icon">🤝</div>
+      <h3>Supply Services</h3>
+      <p>Business supply opportunities with an emphasis on professionalism and dependable service.</p>
+    </article>
+  </div>
+</section><div class="banner">
+  <h2>THE POWER OF HUSTLING</h2>
+  <p>Building opportunities through dedication, enterprise and service.</p>
+</div><section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>We welcome enquiries about our business, tea products and services.</p>
+  <p><strong>Phone:</strong> <a href="tel:+27767972229">076 797 2229</a></p>
+  <p><strong>Email:</strong> <a href="mailto:tlhantlhaganeyabokoneinves01@gmail.com">tlhantlhaganeyabokoneinves01@gmail.com</a></p>
+  <p><strong>Address:</strong><br>2289 Mahlakole Section, Ga-Masemola,<br>Groblersdal, 1060, Limpopo Province, South Africa</p>
+  <p><strong>Company Registration:</strong> 2025/516771/07</p>
+  <a class="button" href="https://wa.me/27767972229">Contact Us on WhatsApp</a>
+</section>
+</main><footer>
+  <p>TLHANTLHAGANE YA BOKONE INVESTMENT PTY LTD</p>
+  <p>THE POWER OF HUSTLING</p>
+  <p>&copy; 2026 All rights reserved.</p>
+</footer></body>
+    </html>
